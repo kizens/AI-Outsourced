@@ -6,4 +6,6 @@ export const router = createBrowserRouter([
     path: "/",
     Component: Presentation,
   },
-]);
+], {
+  basename: "/AI-Outsourced"
+});
